@@ -1,2 +1,3 @@
 # BarbezDotEu.EntityFrameworkCore
-Some boilerplate code on top of Microsoft.EntityFrameworkCore
+
+Misc. extensions to Microsoft.EntityFrameworkCore.

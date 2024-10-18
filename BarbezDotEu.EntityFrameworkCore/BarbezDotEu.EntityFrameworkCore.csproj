@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Authors>Hannes Barbez</Authors>
+		<Company>Hannes Barbez</Company>
+		<Title>BarbezDotEu.EntityFrameworkCore</Title>
+		<Product>BarbezDotEu.EntityFrameworkCore</Product>
+		<PackageId>BarbezDotEu.EntityFrameworkCore</PackageId>
+		<Copyright>©2024 Hannes Barbez</Copyright>
+		<Version>1.0.0-alpha-3</Version>
+		<Description>Some boilerplate code on top of Microsoft.EntityFrameworkCore.</Description>
+		<PackageTags>entity;framework;core;entity-framework-core;generics;barbez</PackageTags>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://barbez.eu</PackageProjectUrl>
+		<PackageOutputPath>./nupkg</PackageOutputPath>
+		<RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.EntityFrameworkCore</RepositoryUrl>
+		<RepositoryType>GIT</RepositoryType>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>ICON.png</PackageIcon>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<Folder Include="nupkg\" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="BarbezDotEu.Domain" Version="1.0.0-alpha-3" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.10" />
+	</ItemGroup>
+</Project>
