@@ -7,7 +7,7 @@
 		<Product>BarbezDotEu.EntityFrameworkCore</Product>
 		<PackageId>BarbezDotEu.EntityFrameworkCore</PackageId>
 		<Copyright>©2024 Hannes Barbez</Copyright>
-		<Version>1.0.0-alpha-3</Version>
+		<Version>1.0.0</Version>
 		<Description>Misc. extensions to Microsoft.EntityFrameworkCore.</Description>
 		<PackageTags>entity;framework;core;entity-framework-core;generics;barbez</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -23,14 +23,11 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 	<ItemGroup>
-		<Folder Include="nupkg\" />
-	</ItemGroup>
-	<ItemGroup>
 		<None Include="..\README.md" Pack="true" PackagePath="\" />
 		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="BarbezDotEu.Domain" Version="1.0.0-alpha-3" />
+	  <PackageReference Include="BarbezDotEu.Domain" Version="1.0.0" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.0" />
 	</ItemGroup>
