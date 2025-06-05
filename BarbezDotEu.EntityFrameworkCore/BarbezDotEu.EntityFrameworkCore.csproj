@@ -6,8 +6,8 @@
 		<Title>BarbezDotEu.EntityFrameworkCore</Title>
 		<Product>BarbezDotEu.EntityFrameworkCore</Product>
 		<PackageId>BarbezDotEu.EntityFrameworkCore</PackageId>
-		<Copyright>©2024 Hannes Barbez</Copyright>
-		<Version>1.0.0</Version>
+		<Copyright>©2025 Hannes Barbez</Copyright>
+		<Version>1.0.1</Version>
 		<Description>Misc. extensions to Microsoft.EntityFrameworkCore.</Description>
 		<PackageTags>entity;framework;core;entity-framework-core;generics;barbez</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -22,6 +22,14 @@
 		<PackageIcon>ICON.png</PackageIcon>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
+
+    <!-- only applies when Configuration == Release: -->
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+        <!-- Turn off generation of a .pdb and strip debug info entirely -->
+        <DebugType>none</DebugType>
+        <DebugSymbols>false</DebugSymbols>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
 	<ItemGroup>
 		<None Include="..\README.md" Pack="true" PackagePath="\" />
 		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
