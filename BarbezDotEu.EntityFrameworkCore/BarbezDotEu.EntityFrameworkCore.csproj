@@ -35,7 +35,7 @@
 		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="BarbezDotEu.Domain" Version="1.0.0" />
+	  <PackageReference Include="BarbezDotEu.Domain" Version="1.0.1" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.5" />
 	</ItemGroup>
