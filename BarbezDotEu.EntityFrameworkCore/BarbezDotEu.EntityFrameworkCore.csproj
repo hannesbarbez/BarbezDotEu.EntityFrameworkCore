@@ -7,7 +7,7 @@
 		<Product>BarbezDotEu.EntityFrameworkCore</Product>
 		<PackageId>BarbezDotEu.EntityFrameworkCore</PackageId>
 		<Copyright>©2026 Hannes Barbez</Copyright>
-		<Version>2.0.0</Version>
+		<Version>3.0.0</Version>
 		<Description>Misc. extensions to Microsoft.EntityFrameworkCore.</Description>
 		<PackageTags>entity;framework;core;entity-framework-core;generics;barbez</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
